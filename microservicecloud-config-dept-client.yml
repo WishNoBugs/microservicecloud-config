@@ -1,6 +1,7 @@
 ﻿spring:
   profiles:
-    active: dev
+    active: 
+    - dev
 ---
 server:
   port: 8001
@@ -81,4 +82,4 @@ info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.version: $project.version$ 
