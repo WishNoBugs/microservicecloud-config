@@ -9,7 +9,7 @@ spring:
 spring:
   profiles: dev     #开发环境
   application: 
-    name: microservicecloud-config-atguigu-dev
+    name: '{cipher}c690f9351ba11fba4ccf700555da13626b9ff346917a04fbabbc38ac59d4e3215fcb33c2167adf3af4fcd50a9ac0258028a3f57f032713b6ec4431efad718d50'
 ---
 spring: 
   profiles: test    #测试环境
